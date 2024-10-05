@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartfelt Message</title>
+    <link rel="stylesheet" href="tyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hi Phoebe, Woedem has a message for you.</h1>
+        <button id="messageButton">Show Message</button>
+        <p id="message" style="display:none;">
+            It has been wonderful spending these months with you at Alliance Francaise.
+            Though you won't be joining us for the next session, I wanted to give you these bracelets
+            to remind you that you have a brother who will always support your success.
+
+            Buttercup, a flower symbolizing happiness and warmth, embodies your spirit.
+            You have incredible potential to impact the world positively.
+            I've noticed your problem-solving skills, creativity, and your passion for helping others.
+            Remember, though, to explore and embrace your true self without letting fear or shyness hold you back.
+
+            You radiate boldness and light; let that shine brightly!
+            I pray that God guides you toward your true purpose.
+            Know that I’m here whenever you need to talk, share ideas, or seek solutions.
+            Don’t hesitate to reach out.
+
+            And let’s not forget, one day we'll have that car race! Wishing you all the best.
+            May God continue to bless you abundantly.
+        </p>
+    </div>
+
+    <script>
+        const button = document.getElementById('messageButton');
+        const message = document.getElementById('message');
+
+        button.addEventListener('click', () => {
+            message.style.display = message.style.display === 'none' ? 'block' : 'none';
+        });
+    </script>
+</body>
+</html>
